@@ -1,0 +1,40 @@
+﻿@model toyrobot.web.Models.HomePageViewModel
+
+@{
+    ViewBag.Title = "Toy Robot";
+}
+
+<h2>Toy Robot</h2>
+
+@section TopStyles
+{
+    <link rel="stylesheet" href="~/Content/robot.css" type="text/css" />
+}
+
+<input type="hidden" id="hdnRobotId" />
+<input type="hidden" id="hdnRows" value="@Model.Rows" />
+<input type="hidden" id="hdnColumns" value="@Model.Columns" />
+<input type="hidden" id="hdnBoxHeight" value="@Model.BoxHeight" />
+<input type="hidden" id="hdnBoxWidth" value="@Model.BoxWidth" />
+
+
+
+@Html.Partial("_Intro")
+
+<div class="container">
+    <div class="row">
+
+        @Html.Partial("_Grid")
+
+        @Html.Partial("_ControlPanel")
+
+    </div>
+</div>
+
+@section BottomScripts
+    {
+    <script type="text/javascript" src="~/Scripts/site/robot.js"></script>
+}
+
+
+

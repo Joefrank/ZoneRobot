@@ -1,0 +1,27 @@
+﻿ @model toyrobot.web.Models.HomePageViewModel
+
+<div id="command-wrap" class="col-lg-4">
+    <p>
+        <button class="btn-default" id="btnPlace">PLACE</button>&nbsp;&nbsp;
+        X <input type="text" id="txtX"  />
+        Y <input type="text" id="txtY"  />
+          <select id="slFace">
+              @foreach (var face in Model.Directions)
+              {
+                <option value="@face">@face</option>
+              }
+             
+          </select>
+    </p>
+    <p>
+        <button class="btn-default" id="btnMove">MOVE</button>
+    </p>
+    <p>
+        <button class="btn-default" id="btnLeft">LEFT</button>
+        <button class="btn-default" id="btnRight">RIGHT</button>
+    </p>
+    <p>
+        <button class="btn-default" id="btnReport">REPORT</button>
+    </p>
+    <p id="pfeedback" class="pFeedBack"></p>
+</div>

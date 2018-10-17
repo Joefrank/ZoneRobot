@@ -1,0 +1,49 @@
+﻿ #container {
+     width: 501px;
+     height: 501px;
+     position: relative;
+     background: beige;
+     display: table;
+     border: 1px solid black;
+     margin-right: 10px;
+     padding: 0;
+ }
+
+ #robotimg {
+     width: 24px;
+     height: 24px;
+     bottom: 0;left: 0;
+     position: absolute;
+     background-image:url('/Content/images/robot.png') ;
+ }
+
+#command-wrap {
+    position: relative;
+    background-color: bisque;
+    padding-top: 10px;
+}
+
+    #command-wrap input[type=text] {
+        width: 30px;
+    }
+
+    .trow {
+        margin: 0;
+        display: table-row;
+        position: relative;
+        border-left: 1px solid black;
+    }
+
+.box {
+    width: 100px;
+    height: 100px;
+    display: table-cell;
+    background-color: beige;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.pFeedBack {
+    color: blue;
+    font-weight: bold;
+}
