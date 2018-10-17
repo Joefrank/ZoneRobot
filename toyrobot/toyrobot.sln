@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toyrobot.domain", "toyrobot.domain.csproj", "{561C5413-FF39-4953-84A4-0E34CA7C8D06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toyrobot.web", "..\toyrobot.web\toyrobot.web.csproj", "{1A5DA7F5-AEED-4D5E-B81D-528618EAD45F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toyrobot.services", "toyrobot.services\toyrobot.services.csproj", "{BB4F0C9D-D4A1-405E-AD42-05CB28072CC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toyrobot.desktop", "toyrobot.desktop\toyrobot.desktop.csproj", "{F791CA84-D0FF-4CE8-9A10-18A8618B9C2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toyrobot.utils", "..\toyrobot.utils\toyrobot.utils.csproj", "{BAAE23E9-11D1-44F4-8330-6FE2D6A2CD9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toyrobot.test", "toyrobot.test\toyrobot.test.csproj", "{5CF2745F-DC9E-4A86-B52C-E50314AFF47D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{561C5413-FF39-4953-84A4-0E34CA7C8D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{561C5413-FF39-4953-84A4-0E34CA7C8D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{561C5413-FF39-4953-84A4-0E34CA7C8D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{561C5413-FF39-4953-84A4-0E34CA7C8D06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A5DA7F5-AEED-4D5E-B81D-528618EAD45F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5DA7F5-AEED-4D5E-B81D-528618EAD45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5DA7F5-AEED-4D5E-B81D-528618EAD45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5DA7F5-AEED-4D5E-B81D-528618EAD45F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB4F0C9D-D4A1-405E-AD42-05CB28072CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4F0C9D-D4A1-405E-AD42-05CB28072CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB4F0C9D-D4A1-405E-AD42-05CB28072CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB4F0C9D-D4A1-405E-AD42-05CB28072CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F791CA84-D0FF-4CE8-9A10-18A8618B9C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F791CA84-D0FF-4CE8-9A10-18A8618B9C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F791CA84-D0FF-4CE8-9A10-18A8618B9C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F791CA84-D0FF-4CE8-9A10-18A8618B9C2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAAE23E9-11D1-44F4-8330-6FE2D6A2CD9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAAE23E9-11D1-44F4-8330-6FE2D6A2CD9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAAE23E9-11D1-44F4-8330-6FE2D6A2CD9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAAE23E9-11D1-44F4-8330-6FE2D6A2CD9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF2745F-DC9E-4A86-B52C-E50314AFF47D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF2745F-DC9E-4A86-B52C-E50314AFF47D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF2745F-DC9E-4A86-B52C-E50314AFF47D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF2745F-DC9E-4A86-B52C-E50314AFF47D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C91CB57-D7E2-4A2B-B7F3-C44E7221BA57}
+	EndGlobalSection
+EndGlobal
