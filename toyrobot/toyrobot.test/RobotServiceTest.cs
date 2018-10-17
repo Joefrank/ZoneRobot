@@ -17,6 +17,7 @@ namespace toyrobot.test
         public void SetupTests()
         {
             _mockCache = new Mock<ICacheService>();
+            _mockCache.Setup(x => x.Get<Robot>(It.IsAny<string>())).Returns(new Robot());
             _robotService = new RobotService(_mockCache.Object);
         }
 
